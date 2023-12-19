@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: seagreen;
+    padding: 10px 20px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    padding: 8px 12px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.instagram-link {
+    float: right;
+    padding: 8px 12px;
+}
+
+/* About Section Styles */
+.about-content {
+    display: flex;
+    align-items: center;
+    background-color:blue;
+}
+
+
+.about-content img {
+    width: 200px; /* Adjust as needed */
+    margin-right: 20px;
+}
+
+/* Services Section Styles */
+.services-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: seagreen;
+}
+
+.service img {
+    width: 150px; /* Adjust as needed */
+}
+
+/* Portfolio Section Styles */
+.portfolio-content {
+    text-align: center;
+}
+
+.portfolio-content img {
+    width: 300px; /* Adjust as needed */
+}
+
+/* Contact Section Styles */
+form {
+    /* Add styles for form if needed */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
